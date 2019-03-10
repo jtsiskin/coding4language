@@ -1,0 +1,61 @@
+@import '~antd/dist/antd.css';
+
+
+.App {
+  /*text-align: center;*/
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /*color: white;*/
+}
+
+#chat-panel {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  height: 10vh;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+button {
+  margin-bottom: 10px;
+}
+.myBubble {
+  background-color: #057BFE !important;
+}
+.myBubbleText {
+  color: #EBF4FA !important;
+  font-family: "Helvetica Neue", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.otherBubble {
+  background-color: #E6E5EB !important;
+}
+.otherBubbleText {
+  color: #060608 !important;
+  font-weight: 400 !important;
+  font-family: "Helvetica Neue", sans-serif !important;
+}
+/*userBubble: {backgroundColor:'#057BFE', color: '#EBF4FA'},*/
+/*chatbubble: {backgroundColor:'#E6E5EB', color: '#060608'},*/
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
